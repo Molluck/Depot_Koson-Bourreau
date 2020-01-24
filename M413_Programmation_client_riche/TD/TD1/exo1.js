@@ -1,5 +1,6 @@
 function init(){
     inverseTexte();
+    datemodif();
 }
 
 function defTitre1(){
@@ -49,4 +50,10 @@ function inverseTexte(){
    textes[0].textContent = textes[1].textContent;
    textes[1].textContent = tmp;
    
+}
+
+function datemodif(){
+    var date = new Date(document.lastModified);
+    var jour = date.getDate();
+    document.getElementById("date_modif").textContent = "Dernière modification: le " + jour + numjour + annee + " par " + document.getElementById;
 }
