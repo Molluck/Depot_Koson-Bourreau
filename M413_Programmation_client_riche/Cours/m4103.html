@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta name="author" content="Pascal PERRY" />
+	<meta name="Description" content="M4103 Programmation Web, client riche" />
+    <meta charset="utf-8">
+	<style type="text/css">
+	.style1 {
+		font-family: "Times New Roman";
+	}
+	</style>
+</head>
+<body>
+    <h1>M4103 Programmation Web - Client riche</h1>
+	<p><strong>Pascal PERRY</strong><br>
+	<a href="https://www.linkedin.com/in/pascalperry">
+	https://www.linkedin.com/in/pascalperry</a></p>
+	<ul>
+		<li>Boulobliqueur (<em>slasher</em>) :<ul>
+			<li>Expert en trouvabilité numérique</li>
+			<li>Mercaticien numérique (<em>Digital Marketer</em>)</li>
+			<li>Consultant en transformation numérique de l&#39;entreprise</li>
+			<li>Enseignant :<ul>
+				<li>en informatique à l&#39;Université de Nice Sophia-Antipolis</li>
+				<li>en mercatique numérique à l&#39;EDHEC Business School</li>
+			</ul>
+			</li>
+		</ul>
+		</li>
+		<li>Nomade numérique, basé à Nice</li>
+	</ul>
+	<p>&nbsp;</p>
+	<h2>Importance du module dans l&#39;enseignement</h2>
+    <div>
+    <h2><img alt="" height="495" src="m4103.jpg" width="720"></h2>
+		<p>&nbsp;</p>
+		<h2>Objectif</h2>
+        <ul>
+			<li>Savoir prorammer un client &laquo; riche &raquo; selon le motif d'architecture logicielle (<em>design pattern</em>) 
+			reposant sur la séparation des 3 éléments suivants :
+			<br>
+			<br>
+			<ul>
+				<li>les <strong>données</strong> (HTML5)</li>
+				<li>la <strong>présentation</strong> (CSS3)</li>
+				<li>le <strong>comportement</strong> (JS)</li>
+			</ul>
+			<span class="style1"><br>► M</span>odèle MVC (<em>Model-View-Controller</em>)
+			vu en cours de Java<br>
+			<br>
+			</li>
+		</ul>
+    </div>
+    <div class="bloc_centre">
+        <h2>Prérequis</h2>
+		<ul>
+			<li>M2105 : Introduction aux interfaces homme-machine (IHM)</li>
+			<li>M3104 : Programmation Web côté serveur</li>
+			<li>M3105 : Conception et programmation objet avancées</li>
+		</ul>
+		<p>&nbsp;</p>
+		<h2>Contenu</h2>
+		<ul>
+			<li>Modèle de documents Web, en anglais DOM (<em>Document Object 
+			Model</em>)</li>
+			<li>Gestion dynamique du DOM avec JavaScript (JS) et autres 
+			cadriciels (<em>frameworks</em>)<em> basés</em> sur JS (jQuery)</li>
+			<li>Programmation événementielle</li>
+			<li>Requêtes synchrones et asynchrones</li>
+			<li>Formats d&#39;échange de données (XML, JSON)</li>
+		</ul>
+		<p>&nbsp;</p>
+		<h2>Cours</h2>
+        <ul>
+            <li>Cours 1 : <a href="supports/js/M4103 - 1.pdf">Introduction</a></li>	
+            <li>Cours 2 : <a href="supports/js/M4103 - 2.pdf">Javascript</a></li>	
+            <li>Cours 3 : <a href="supports/js/M4103 - 3.pdf">Requêtes asynchrones et formats d'échange de données</a></li>
+            <li>Cours 4 : <a href="supports/js/M4103 - 4.pdf">Exemples de bibliothèques et d'autres langages</a></li>
+        </ul>
+        <p>&nbsp;</p>
+        <p style="margin-left:20px;">
+		<input type="button" value="Agrandir" onclick="document.getElementById('presentation').setAttribute('width',document.getElementById('presentation').getAttribute('width')*1.25);document.getElementById('presentation').setAttribute('height',document.getElementById('presentation').getAttribute('height')*1.25);"> 
+		<input type="button" value="Rétrécir" onclick="document.getElementById('presentation').setAttribute('width',document.getElementById('presentation').getAttribute('width')*0.80);document.getElementById('presentation').setAttribute('height',document.getElementById('presentation').getAttribute('height')*0.80);">
+        </p>
+		<object style="margin-left:20px;" id="presentation" width="360" height="288" type="application/x-shockwave-flash" data="m4103.swf"> 
+            <param name="allowScriptAccess" value="sameDomain" /> 
+            <param name="movie" value="m4013.swf" /> 
+            <param name="quality" value="high" /> 
+            <param name="bgcolor" value="#000000" /> 
+            <param name="allowFullScreen" value="true" /> 
+        </object>
+		<br>
+        <h2>Travaux  </h2>
+		<p>5 travaux dirigés étalés sur 7 séances :</p>
+        <ul>
+            <li>TD 1 : <a href="supports/js/TP1_JS_M413_2016.pdf">Introduction à JavaScript et au DOM</a>. (séance 1 et séance 2)</li>
+            <li>TD 2 : <a href="supports/js/TP2_JS_M413_2016.pdf">Poursuite de l'apprentissage du JavaScript et du DOM</a>. (séance 3)</li>
+            <li>TD 3 : <a href="supports/js/TP3_JS_M413_2016.pdf">Mise en pratique du JavaScript sur des applications plus concrètes</a>. (séance 4)</li>
+            <li>TD 4 : <a href="supports/js/TP4_JS_M413_2016.pdf">Étude des mécanismes asynchrones (AJAX)</a> et présentation des formats XML et JSON. (séance 5 et séance 6)</li>
+            <li>TD 5 : <a href="supports/js/TP5_JS_M413_2016.pdf">Mise en œuvre d'exemples</a> en utilisant la bibliothèque jQuery. (séance 7)</li>
+        </ul>
+    	<p>&nbsp;</p>
+    	<h2>Evaluation</h2>
+		<p>L&#39;évaluation du module est basée sur 3 notes :</p>
+		<ul>
+			<li>1 note de contrôle continu (2*20 minutes en séance)</li>
+			<li>1 note de TD (assiduité, particpation, rendu)</li>
+			<li>1 note de DS (1h30)</li>
+		</ul>
+    </div>				
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>2016-2017</p>
+</body>
+</html>
